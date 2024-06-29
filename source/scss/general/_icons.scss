@@ -1,0 +1,720 @@
+.h2o-icon {
+  &-play {
+    height: 28px;
+    width: 15px;
+    display: block;
+    background-image: url(../img/sprite/play.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  &-search {
+    height: 16px;
+    width: 16px;
+    display: block;
+    background-image: url(../img/sprite/search.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  &-bonus {
+    height: 16px;
+    width: 16px;
+    display: block;
+    background-image: url(../img/sprite/bonus.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  &-btc {
+    height: 22px;
+    width: 22px;
+    display: block;
+    background-image: url(../img/sprite/btc.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  &-eth {
+    height: 22px;
+    width: 22px;
+    display: block;
+    background-image: url(../img/sprite/eth.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  &-usdt {
+    height: 22px;
+    width: 22px;
+    display: block;
+    background-image: url(../img/sprite/usdt.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  &-xrp {
+    height: 22px;
+    width: 22px;
+    display: block;
+    background-image: url(../img/sprite/xrp.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  &-review {
+    height: 16px;
+    width: 16px;
+    display: block;
+    background-image: url(../img/sprite/coments.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  &-medal {
+    height: clamp(30px, 3.7037vw, 40px);
+    width: clamp(30px, 3.7037vw, 40px);
+    display: block;
+    background-image: url(../img/sprite/medal.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  &-fire {
+    height: clamp(30px, 3.7037vw, 40px);
+    width: clamp(30px, 3.7037vw, 40px);
+    display: block;
+    background-image: url(../img/sprite/fire.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  &-germany {
+    height: clamp(30px, 3.7037vw, 40px);
+    width: clamp(30px, 3.7037vw, 40px);
+    display: block;
+    background-image: url(../img/sprite/germany.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  &-new {
+    height: clamp(30px, 3.7037vw, 40px);
+    width: clamp(30px, 3.7037vw, 40px);
+    display: block;
+    background-image: url(../img/sprite/new.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  &-de {
+    height: 16px;
+    width: 18px;
+    display: block;
+    background-image: url(../img/sprite/de.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 6px;
+  }
+
+  &-info {
+    height: 16px;
+    width: 16px;
+    display: block;
+    background-image: url(../img/sprite/info.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 6px;
+    transition: all 0.2s;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+
+  &-mob {
+    height: 16px;
+    width: 16px;
+    display: block;
+    background-image: url(../img/sprite/mob.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 6px;
+    transition: all 0.2s;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+
+  &-arrows {
+    height: 16px;
+    width: 16px;
+    display: block;
+    background-image: url(../img/sprite/arrows.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 6px;
+  }
+
+  &-star {
+    height: 16px;
+    width: 16px;
+    display: block;
+    background-image: url(../img/sprite/star.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    &--empty {
+      background-image: url(../img/sprite/star-emty.svg);
+    }
+  }
+
+  &-dmca {
+    display: block;
+    background-image: url(../img/index/dmca.png);
+    width: 100px;
+    height: 20px;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+
+  &-ecogra {
+    display: block;
+    background-image: url(../img/index/ecogra.png);
+    width: 98px;
+    height: 30px;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+
+  &-gamble {
+    display: block;
+    background-image: url(../img/sprite/gambleaware.svg);
+    width: 156px;
+    height: 24px;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+
+  &-18 {
+    display: block;
+    background-image: url(../img/sprite/18plus.svg);
+    width: 30px;
+    height: 30px;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+
+  &-slots {
+    height: 25px;
+    width: 25px;
+    display: block;
+    background-image: url(../img/sprite/slots.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  &-blackjack {
+    height: 25px;
+    width: 25px;
+    display: block;
+    background-image: url(../img/sprite/blackjack.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  &-poker {
+    height: 25px;
+    width: 25px;
+    display: block;
+    background-image: url(../img/sprite/poker.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  &-video {
+    height: 25px;
+    width: 25px;
+    display: block;
+    background-image: url(../img/sprite/video-poker.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  &-roulette {
+    height: 25px;
+    width: 25px;
+    display: block;
+    background-image: url(../img/sprite/roulette.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  &-craps {
+    height: 25px;
+    width: 25px;
+    display: block;
+    background-image: url(../img/sprite/craps.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  &-dealer {
+    height: 25px;
+    width: 25px;
+    display: block;
+    background-image: url(../img/sprite/dealer.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  &-pros {
+    transform: scaleY(-1);
+    height: 24px;
+    width: 24px;
+    display: block;
+    background-image: url(../img/sprite/thumb_down.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  &-i {
+    height: 14px;
+    width: 14px;
+    display: block;
+    background-image: url(../img/sprite/i.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  &-check {
+    height: clamp(24px, 2.963vw, 32px);
+    width: clamp(24px, 2.963vw, 32px);
+    display: block;
+    background-image: url(../img/sprite/check.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  &-bet {
+    height: 24px;
+    width: 24px;
+    display: block;
+    background-image: url(../img/sprite/bingo.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  &-bingo {
+    height: 24px;
+    width: 24px;
+    display: block;
+    background-image: url(../img/sprite/bet.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  &-slot {
+    height: 24px;
+    width: 24px;
+    display: block;
+    background-image: url(../img/sprite/slot.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  &-ua {
+    height: 22px;
+    width: 30px;
+    display: block;
+    background-image: url(../img/sprite/ua.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  &-marker {
+    height: 16px;
+    width: 18px;
+    display: block;
+    background-image: url(../img/sprite/marker.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  &-inform {
+    height: 20px;
+    width: 20px;
+    display: block;
+    background-image: url(../img/sprite/inform.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  &-close {
+    height: 20px;
+    width: 20px;
+    display: block;
+    background-image: url(../img/sprite/close.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  &-top {
+    height: 17px;
+    width: 16px;
+    display: block;
+    background-image: url(../img/sprite/top.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  &-lcasino {
+    height: 24px;
+    width: 24px;
+    display: block;
+    background-image: url(../img/sprite/lcasino.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  &-cons {
+    height: 24px;
+    width: 24px;
+    display: block;
+    background-image: url(../img/sprite/thumb_down2.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  &-baccarat {
+    height: 25px;
+    width: 25px;
+    display: block;
+    background-image: url(../img/sprite/bacarrat.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  &-pay {
+    display: block;
+    background-image: url(../img/index/paysafecard.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 8px;
+    border-radius: 4px;
+    max-width: 96px;
+    width: 100%;
+    height: 100%;
+  }
+
+  &-bitcoin {
+    display: block;
+    background-image: url(../img/index/bitcoin.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 8px;
+    border-radius: 4px;
+    max-width: 96px;
+    width: 100%;
+    height: 100%;
+  }
+
+  &-neo {
+    display: block;
+    background-image: url(../img/index/neo.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 8px;
+    border-radius: 4px;
+    max-width: 96px;
+    width: 100%;
+    height: 100%;
+  }
+
+  &-ezee {
+    display: block;
+    background-image: url(../img/index/ethereum.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 8px;
+    border-radius: 4px;
+    max-width: 96px;
+    width: 100%;
+    height: 100%;
+  }
+
+  &-master {
+    display: block;
+    background-image: url(../img/index/mastercard.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 8px;
+    border-radius: 4px;
+    max-width: 96px;
+    width: 100%;
+    height: 100%;
+  }
+
+  &-bank {
+    display: block;
+    background-image: url(../img/index/banktransfer.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 8px;
+    border-radius: 4px;
+    max-width: 96px;
+    width: 100%;
+    height: 100%;
+  }
+
+  &-pragmatic {
+    display: block;
+    background-image: url(../img/index/pragmaticplay.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 8px;
+    border-radius: 4px;
+    max-width: 96px;
+    width: 100%;
+    height: 100%;
+  }
+
+  &-betsoft {
+    display: block;
+    background-image: url(../img/index/betsoft.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 8px;
+    border-radius: 4px;
+    max-width: 96px;
+    width: 100%;
+    height: 100%;
+  }
+
+  &-cancel {
+    height: 11px;
+    width: 12px;
+    display: block;
+    background-image: url(../img/sprite/cancel.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  &-cup {
+    height: 16px;
+    width: 16px;
+    display: block;
+    background-image: url(../img/sprite/cup.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  &-marker2 {
+    height: 16px;
+    width: 16px;
+    display: block;
+    background-image: url(../img/sprite/marker2.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  &-pros2 {
+    height: 16px;
+    width: 16px;
+    display: block;
+    background-image: url(../img/sprite/pros2.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  &-cons2 {
+    height: 16px;
+    width: 16px;
+    display: block;
+    background-image: url(../img/sprite/cons2.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  &-user {
+    height: 18px;
+    width: 18px;
+    display: block;
+    background-image: url(../img/sprite/cup.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  &-planet {
+    height: 14px;
+    width: 14px;
+    display: block;
+    background-image: url(../img/sprite/planet.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+
+  &-curacao {
+    height: 19px;
+    width: 22px;
+    display: block;
+    background-image: url(../img/index/cw.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  &-money {
+    
+    height: 24px;
+    width: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ecf5ee;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    display: flex;
+    padding: 5px;
+    position: relative;
+    z-index: 1;
+
+    &::before{
+      z-index: 2;
+      width: 14px;
+      height: 11px;
+      position: absolute;
+      content: '';
+      background-image: url(../img/sprite/money.svg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
+
+  &-tag {
+    height: 24px;
+    width: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ecf5ee;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    display: flex;
+    padding: 5px;
+    position: relative;
+    z-index: 1;
+
+    &::before{
+      z-index: 2;
+      width: 14px;
+      height: 11px;
+      position: absolute;
+      content: '';
+      background-image: url(../img/sprite/pros2.svg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
+  
+  &-fire2 {
+    height: 24px;
+    width: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffeeea;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    display: flex;
+    padding: 5px;
+    position: relative;
+    z-index: 1;
+
+    &::before{
+      z-index: 2;
+      width: 14px;
+      height: 11px;
+      position: absolute;
+      content: '';
+      background-image: url(../img/sprite/fire2.svg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
+
+  &-arrow {
+    height: 14px;
+    width: 14px;
+    display: block;
+    background-image: url(../img/sprite/arrow.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
