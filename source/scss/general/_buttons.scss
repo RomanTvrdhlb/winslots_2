@@ -46,10 +46,10 @@
   }
 
   &--transparent {
-    background: rgba(var(--bg-b), 0.4);
+    background: rgba(var(--bg-a), 0.4);
     color: rgba(var(--cl-a), 1);
     box-shadow: none;
-    border: solid 1px var(--br-b);
+    border: solid 1px var(--br-r);
 
     &:hover {
       background: rgba(var(--bg-l), 0.85);
